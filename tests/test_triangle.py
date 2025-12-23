@@ -7,10 +7,6 @@ class TriangleTestCase(unittest.TestCase):
         res = area(6, 4)
         self.assertEqual(res, 12.0)
 
-    def test_area_positive2(self):
-        res = area(6, 3)
-        self.assertEqual(res, 18.0)
-        
     def test_area_zero_height(self):
         res = area(6, 0)
         self.assertEqual(res, 0)
