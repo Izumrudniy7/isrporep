@@ -25,4 +25,4 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_perimeter_float(self):
         res = perimeter(2.5, 3.5, 4.5)
-        self.assertEqual(res, 10.5)
+        self.assertEqual(res, 10.5)    
